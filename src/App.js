@@ -8,12 +8,12 @@ export default class App extends Component {
     }
   }
 
-  isEven() {
-    return this.state.count % 2 === 0 ? "Even" : "Odd";
+  isEven(val) {
+    return val % 2 === 0 ? "Even" : "Odd";
   }
 
   render = () =>
     <h4 className="bg-primary text-white text-center p-2">
-      Number of things: { this.isEven() }
+      Number of things: { this.isEven(this.state.count) }
     </h4>
 }
