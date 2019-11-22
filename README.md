@@ -1,33 +1,34 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Primer mini project
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+This is a mini project to review HTML basics and how HTML can be mixed with Javascript code when using JXS, which is a superset of JavaScript supported by the React development tool. We also introduce in this mini project the Bootstrap CSS framework.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preparing the project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To create the project, open a new command prompt, navigate to a convenient location and run the command as follow:
+**`npx create-react-app primer`**
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Adding the Bootstrap package to the project
 
-### `npm run build`
+Once the project has been created, run the following commands to navigate to the project folder and install the Bootstrap CSS framework.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**`cd primer`**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**`npm install bootstrap@4.1.2`**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Including Bootstrap in index.js in the src Folder
 
-### `npm run eject`
+To include Bootstrap in the application, add the statement below in the index.js file.
+
+**`import 'bootstrap/dist/css/bootstrap.css`**
+
+## Preparing the HTML file and the Component
+
+We start by replacing the content of the index.html in the _public_ folder with the content shown below.
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
